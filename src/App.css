@@ -31,14 +31,10 @@ a:hover {
   font-weight: 700;
 }
 .semi-title {
-  font-size: 2rem;
-  font-weight: 700;
-}
-
-.semi-title-small {
   font-size: 1.5rem;
   font-weight: 700;
 }
+
 .text-red {
   color: rgb(204, 10, 10);
 }
