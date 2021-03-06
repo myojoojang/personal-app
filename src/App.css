@@ -1,0 +1,131 @@
+body {
+  font-family: "Mulish", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  background-color: rgb(241, 239, 239);
+  overflow-x: hidden;
+  transition: all 500ms ease;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+body {
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(204, 10, 10);
+  text-decoration: none;
+}
+
+.title {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+.semi-title {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.text-red {
+  color: rgb(204, 10, 10);
+}
+
+.text-gray {
+  color: rgb(241, 239, 239);
+}
+
+.navbar-nav {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+}
+
+.nav-item {
+  text-transform: capitalize;
+}
+
+.back {
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+  color: black;
+}
+
+.box {
+  border-top: 3px solid black;
+  border-right: 1.5px solid black;
+  border-bottom: 3px solid black;
+  border-left: 1.5px solid black;
+}
+
+.border-bt {
+  border-bottom: 3px solid black;
+}
+
+img {
+  filter: grayscale(100%) contrast(200%);
+  transition: all 800ms ease;
+}
+
+img:hover {
+  filter: none;
+}
+
+i {
+  padding: 0.3rem;
+  transition: all 800ms ease;
+  margin: 0.2rem;
+}
+i:hover {
+  background-color: rgb(204, 10, 10);
+}
+
+.black-box {
+  background-color: black;
+}
+
+.contact {
+  margin: auto;
+  width: 65%;
+}
+
+input {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  color: rgb(241, 239, 239);
+  background-color: black;
+}
+
+input::placeholder {
+  color: rgb(241, 239, 239);
+}
+
+textarea {
+  width: 100%;
+  border: none;
+  padding: 0.5rem;
+  background-color: black;
+  color: rgb(241, 239, 239);
+}
+
+textarea::placeholder {
+  color: rgb(241, 239, 239);
+}
+
+.btn {
+  background-color: black;
+  color: rgb(241, 239, 239);
+  border-radius: 0;
+  transition: all 800ms ease;
+}
+.btn:hover {
+  background-color: rgb(204, 10, 10);
+  color: rgb(241, 239, 239);
+}
