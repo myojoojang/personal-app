@@ -63,7 +63,7 @@ UI design.
               <div className="black-box text-gray p-2 my-2">
               Adobe Photoshop, Illustlator, Indesign, XD
                  </div>
-              <div className="text-right p-2 black-box text-gray title">SKILLS</div>
+              <div className="text-right p-2 black-box text-gray semi-title">SKILLS</div>
             </div>
 
           </div>
