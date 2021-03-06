@@ -13,7 +13,7 @@ export class Profile extends Component {
               I design & build digital products.
             </div>
 
-            <div className="p-2 border-bt ">
+            <div className="p-2 semi-title-small border-bt ">
               Creative Front-End Developer experience in blending the art of design
 with skill of programming to deliver an immersive and engaging user
 experience through efficient website development, proactive feature
