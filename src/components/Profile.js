@@ -28,18 +28,15 @@ UI design.
             </div>
 
           </div>
-          <div className="col-lg-4 box mt-2 my-lg-0 p-0">
+          <div className="col-lg-4 box mt-2 my-lg-0 p-0 pointer">
             <Link to="/works">
-
               <img src="./img/main.jpg" alt="main" className="img-fluid p-2" />
-
-              <div className="semi-title black-box text-gray m-2 p-0">Check my work</div>
+              <div className="semi-title black-box text-gray m-2 px-4 work-title ">Check my work</div>
             </Link>
           </div>
           <div className="col-lg-4 box p-0 mt-2 my-lg-0">
             <div className="semi-title border-bt p-2">ABOUT</div>
             <div className="border-bt p-4">
-              <div className="title text-gray d-flex justify-content-around py-2 mb-2"><i className="black-box fas fa-arrows-alt"></i> <i className="black-box fas fa-comments"></i> <i className="black-box fas fa-crop-alt"></i></div>
               <div><i className="fas fa-square-full"></i>Strong knowledge of responsive and adaptive display techniques. </div>
               <div><i className="fas fa-square-full"></i>Interpersonal savvy and communication skills.</div>
               <div><i className="fas fa-square-full"></i>Strong preference for easy to use, intuitive UX/UI.</div>
