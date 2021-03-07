@@ -75,7 +75,7 @@ a:hover {
   position: absolute;
   z-index: 1;
   top: 5%;
-  transition: all 400ms ease;
+  transition: all 800ms ease;
 }
 
 .work-title:hover{
@@ -89,9 +89,7 @@ a:hover {
 
 img {
   filter: grayscale(100%) contrast(200%);
-  transition: all 400ms ease;
-  height: 100%;
-
+  transition: all 800ms ease;
 }
 
 img:hover {
