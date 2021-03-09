@@ -22,7 +22,7 @@ function App() {
             </Switch>
          
         </div>
-        <div className="text-container">
+        {/* <div className="text-container">
           <div className="text-wrapper">
             <div className="text-1 text text-center">/</div>
             <div className="text-2 text text-center">/</div>
@@ -38,7 +38,7 @@ function App() {
 
           </div>
 
-        </div>
+        </div> */}
      
 
      

@@ -31,7 +31,7 @@ UI design.
           <div className="col-lg-4 box mt-2 my-lg-0 p-0 pointer">
             <Link to="/works">
               <img src="./img/main.jpg" alt="main" className="img-fluid w-100 p-2" />
-              <div className="semi-title black-box text-gray m-2 px-4 work-title ">Check my work</div>
+              <div className=" black-box text-gray m-2 px-4 work-title ">Check my work</div>
             </Link>
           </div>
           <div className="col-lg-4 box p-0 mt-2 my-lg-0">
