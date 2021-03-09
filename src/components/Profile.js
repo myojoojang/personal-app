@@ -21,7 +21,7 @@ optimization, and relentless debugging. Passionate about aesthetics and
 UI design.
             </div>
             <div className="p-2">
-              <div className='mt-2'><span className="text-gray"><i className="black-box fas fa-file"></i></span>CV <a href="https://drive.google.com/file/d/11eDlftSM6Etd9JIQZCikUVJ0DwvRMmwl/view?usp=sharing" target="_blank" rel="noopener noreferrer"> ENG</a></div>
+              <div className='mt-2'><span className="text-gray"><i className="black-box fas fa-file"></i></span>CV <a href="https://drive.google.com/file/d/1xhLB4ww6zjLjg0-uF9cxjrQRh7hWLx8-/view?usp=sharing" target="_blank" rel="noopener noreferrer"> ENG</a></div>
               <div className='mt-2'><span className="text-gray"><i className="black-box fas fa-envelope"></i></span> mjjang0127@gmail.com</div>
               <div className='mt-2'><span className="text-gray"><i className="black-box fab fa-github"></i></span> <a href="https://github.com/myojoojang" target="_blank" rel="noopener noreferrer">https://github.com/myojoojang</a> </div>
             
