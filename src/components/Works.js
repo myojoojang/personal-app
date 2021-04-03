@@ -9,7 +9,7 @@ export class Works extends Component {
         <div className="row my-4">
           <div className="col-lg-6 box">
           
-            <a href="https://nasaapiexp.netlify.app/#/" target="_blank" rel="noopener noreferrer">
+            <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="./img/mtplt.png" className="img-fluid p-1" alt="p-2" />
             </a>
           </div>
@@ -18,7 +18,7 @@ export class Works extends Component {
             <div className="border-bt p-2">
               <div className="bold black-box text-gray m-1">The Metropolitan Museum Explorer</div>
                 <div className="bold d-flex">
-                  <a href="https://nasaapiexp.netlify.app/#/" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-maximize"></i></a>
+                  <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-maximize"></i></a>
                   <a href="https://github.com/myojoojang/mtpl-museum" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
                 </div>
               </div>
