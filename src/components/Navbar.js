@@ -1,29 +1,30 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 export class Navbar extends Component {
   render() {
     return (
       <div className='Header'>
-        <div className='row px-2 title'>
-          <div className="col-12 col-md-6 text-left">MJ JANG.</div><div className='semi-title text-right d-none d-md-block col-md-6'>FrontEnd Developer</div>
-        </div>
-        <nav className="navbar navbar-expand-md p-0">
-          <div className="collapse navbar-collapse d-flex">
-            <ul className="navbar-nav px-2 px-md-0 w-100">
-              <li className="nav-item">
-                <Link to='/' className="nav-link">profile</Link>
-              </li>
-              <li className="nav-item">
-                <Link to='/works' className="nav-link">works</Link>
-              </li>
+        <div className='row mx-2 title'>
+          <div className="col-12 col-md-6 text-left">MJ JANG. <span className="bold">Frontend Dev</span></div>
+    
 
-             
-            </ul>
+          <div className='semi-title d-flex text-right d-md-block col-md-6 my-auto'>
+            <span>
+              <a href="https://drive.google.com/file/d/1xhLB4ww6zjLjg0-uF9cxjrQRh7hWLx8-/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-address-card"></i></a>
+            </span>
+
+            <span>
+              <a href="https://github.com/myojoojang" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
+            </span>
+
+            <span>
+              <a href="https://www.linkedin.com/in/myojoo-jang-0127/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
+            </span>
+        
+        
           </div>
-
-        </nav>
-
+        </div>
+       
       </div>
     )
   }

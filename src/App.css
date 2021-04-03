@@ -14,8 +14,14 @@ body::-webkit-scrollbar {
 
 /* Hide scrollbar for IE, Edge and Firefox */
 body {
-  -ms-overflow-style: none; /* IE and Edge */
-  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none;
+  /* IE and Edge */
+  scrollbar-width: none;
+  /* Firefox */
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 a {
@@ -30,11 +36,18 @@ a:hover {
 .title {
   font-size: 3rem;
   font-weight: 700;
- 
+
 }
+
 .semi-title {
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 700;
+}
+
+.bold {
+  font-weight: 700;
+  font-size: 1.7rem;
+  transition: all 800ms ease;
 }
 
 .text-red {
@@ -46,8 +59,8 @@ a:hover {
 }
 
 .navbar-nav {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
 }
 
 .nav-item {
@@ -55,43 +68,109 @@ a:hover {
 }
 
 .back {
-  border-top: 3px solid black;
-  border-bottom: 3px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
   color: black;
 }
 
 .box {
-  border-top: 3px solid black;
-  border-right: 1.5px solid black;
-  border-bottom: 3px solid black;
-  border-left: 1.5px solid black;
+  border-top: 4px solid black;
+  border-right: 2px solid black;
+  border-bottom: 4px solid black;
+  border-left: 2px solid black;
 }
 
 .border-bt {
-  border-bottom: 3px solid black;
+  border-bottom: 4px solid black;
 }
 
-.work-title{
-  position: absolute;
-  z-index: 1;
-  top: 5%;
-  transition: all 800ms ease;
-  font-size: 2rem;
-  font-weight: 700;
+.container-fluid,
+.container-lg,
+.container-md,
+.container-sm,
+.container-xl {
+  padding: 0px;
 }
 
-.work-title:hover{
-  background-color: rgb(204, 10, 10);
+.col,
+.col-1,
+.col-10,
+.col-11,
+.col-12,
+.col-2,
+.col-3,
+.col-4,
+.col-5,
+.col-6,
+.col-7,
+.col-8,
+.col-9,
+.col-auto,
+.col-lg,
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-lg-auto,
+.col-md,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-md-auto,
+.col-sm,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-sm-auto,
+.col-xl,
+.col-xl-1,
+.col-xl-10,
+.col-xl-11,
+.col-xl-12,
+.col-xl-2,
+.col-xl-3,
+.col-xl-4,
+.col-xl-5,
+.col-xl-6,
+.col-xl-7,
+.col-xl-8,
+.col-xl-9,
+.col-xl-auto {
+  padding: 0px;
 }
-.work-img{
-  position: absolute;
-  z-index: -1;
-}
+
 
 
 img {
   filter: grayscale(100%) contrast(200%);
   transition: all 800ms ease;
+
 }
 
 img:hover {
@@ -99,12 +178,14 @@ img:hover {
 }
 
 i {
-  padding: 0.3rem;
+  margin: 5px;
   transition: all 800ms ease;
-  margin: 0.2rem;
+
+
 }
+
 i:hover {
-  background-color: rgb(204, 10, 10);
+  color: rgb(204, 10, 10);
 }
 
 .black-box {
@@ -115,176 +196,3 @@ i:hover {
   margin: auto;
   width: 65%;
 }
-
-/* 
-
-.main{
-  z-index: -1;
-  position: absolute;
- 
-
-}
-
-.text-container{
-  width: 100%;
-  height: 100vh;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: black;
-  animation: slide-out-container 4s cubic-bezier(0.97, 0.01, 0.36, 0.99) 2.8s;
-  animation-fill-mode: forwards;
-}
-
-.text-wrapper{
-  color: white;
-  position: absolute;
-  visibility: hidden;
-
-}
-
-.text{
-  font-weight: 600;
-  font-size: 4rem;
-}
-
-.text-1,.text-3,.text-4,.text-8,.text-9,.text-11{
-  color:  black;
-  -webkit-text-stroke: white 1px;
-}
-
-
-.text-1{
-  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2s;
-  -webkit-animation: blink .8s linear .9s,blink .8s linear 2s;
-  visibility: hidden;
-}
-
-.text-2{
-  animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
-  -webkit-animation: blink .8s linear .8s,blink .8s linear 2.1s;
-  visibility: hidden;
-}
-.text-3{
-  animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
-  -webkit-animation: blink .8s linear .7s,blink .8s linear 2.2s;
-  visibility: hidden;
-}
-.text-4{
-  animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
-  -webkit-animation: blink .8s linear .6s,blink .8s linear 2.3s;
-  visibility: hidden;
-}
-.text-5{
-  animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
-  -webkit-animation: blink .8s linear .5s,blink .8s linear 2.4s;
-  visibility: hidden;
-}
-.text-6{
-  animation: blink 0.8s linear 0.4s, blink 0.8s linear 2.5s, slide-out 1s linear 3.2s;
-  -webkit-animation: blink .8s linear .4s,blink .8s linear 2.5s, slide-out 1s linear 3.2s;
-  visibility: hidden;
-}
-.text-7{
-  animation: blink 0.8s linear 0.5s, blink 0.8s linear 2.4s;
-  -webkit-animation: blink .8s linear .5s,blink .8s linear 2.4s;
-  visibility: hidden;
-}
-.text-8{
-  animation: blink 0.8s linear 0.6s, blink 0.8s linear 2.3s;
-  -webkit-animation: blink .8s linear .6s,blink .8s linear 2.3s;
-  visibility: hidden;
-}
-.text-9{
-  animation: blink 0.8s linear 0.7s, blink 0.8s linear 2.2s;
-  -webkit-animation: blink .8s linear .7s,blink .8s linear 2.3s;
-  visibility: hidden;
-}
-.text-10{
-  animation: blink 0.8s linear 0.8s, blink 0.8s linear 2.1s;
-  -webkit-animation: blink .8s linear .8s,blink .8s linear 2.1s;
-  visibility: hidden;
-}
-.text-11{
-  animation: blink 0.8s linear 0.9s, blink 0.8s linear 2s;
-  -webkit-animation: blink .8s linear .9s,blink .8s linear 2s;
-  visibility: hidden;
-}
-
-
-@keyframes blink{
-  0%{
-    visibility: hidden;
-  }
-  1%{
-    visibility: visible;
-  }
-  99%{
-    visibility: visible;
-  }
-  100%{
-    visibility: hidden;
-  }
-}
-
-@keyframes slide-out{
-  0%{
-    visibility: hidden;
-  }
-  1%{
-    visibility: visible;
-  }
-  19%{
-    visibility: visible;
-  }
-  20%{
-    visibility: hidden;
-  }
-  39%{
-    visibility: hidden;
-  }
-  40%{
-    visibility: visible;
-  }
-  59%{
-    visibility: visible;
-  }
-  60%{
-    visibility: hidden;
-  }
-  79%{
-    visibility: hidden;
-  }
-  80%{
-    visibility: visible;
-  }
-  100%{
-    visibility: visible;
-  }
-}
-
-@keyframes slide-out-container{
-  0%{
-    height: 100vh;
-  }
-  40%{
-    height: 100vh;
-  }
-  100%{
-    height: 0;
-  }
-}
-
-
-
-
-@media (max-width: 990px) {
-  .header {
-      font-size: 24px;
-  }
-
-  .text {
-      font-size: 24px;
-  }
-} */
