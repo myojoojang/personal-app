@@ -17,27 +17,35 @@ export class Profile extends Component {
             </div>
 
             <div >
-            <div className="bold border-bt"><i className="fas fa-angle-double-right m-4"></i>ABOUT</div>
+            <div className="bold border-bt"><span className="mx-4"><i class="fas fa-angle-double-right bold"></i>ABOUT</span></div>
             <div className="p-4 capitalize">
               <div>Creative Front-End Developer experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Passionate about aesthetics and UI design.</div>
             </div>
             </div>
            
           </div>
-          <div className="col-lg-4 box mt-2 my-lg-0 p-0 pointer">
+
+
+          {/*  */}
+          <div className="col-lg-4 box p-auto">
+            
+            {/* <img src="./img/main.jpg" className="img-fluid p-1" /> */}
             
           </div>
-          <div className="col-lg-4 box p-0 mt-2 my-lg-0">
-           
 
+          {/*  */}
+
+          <div className="col-lg-4 box p-0 mt-2 my-lg-0">
           <div className="p-4">
-            <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right mx-4"></i>SKILLS</div>
+            <div className="text-right p-2 bold black-box text-gray "><i class="fas fa-angle-double-right bold"></i>SKILLS</div>
 
 
 
             <div className="semi-title d-flex justify-content-around my-3">
+
               <i className="fab fa-html5"></i>
-              <i className="fab fa-js-square"></i>
+              <i className="fab fa-css3-alt"></i>
+              <i className="fab fa-js"></i>
               <i className="fab fa-react"></i>
               <i className="fab fa-vuejs"></i>
               <i className="fab fa-node"></i>
@@ -46,35 +54,35 @@ export class Profile extends Component {
 
             </div>
               <div>
-                <i className="fas fa-square p-1"></i>
+               
                    HTML, CSS/SASS
               </div>
 
                    
               <div>
-                <i className="fas fa-square p-1"></i>
+               
                 JavaScript/ES6, Front End frameworks (React, Vue), Webpack, Babel
               </div>
                   
               <div>
-              <i className="fas fa-square p-1"></i>
+             
 
               Data visualization skills w/ Kibana, Chart.js and D3.js
               </div>
 
               <div>
-              <i className="fas fa-square p-1"></i>
+             
 
                 Node.js, MySql, MongoDB, Elastic Search
               </div>
 
               <div>
-                <i className="fas fa-square p-1"></i>
+               
                   Google material Design, Responsive UI Design, Vuetify, Bootstrap
               </div>
 
               <div>
-              <i className="fas fa-square p-1"></i>
+             
                 Adobe Photoshop, Illustlator, Indesign, XD
               </div>
               

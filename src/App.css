@@ -50,10 +50,6 @@ a:hover {
   transition: all 800ms ease;
 }
 
-.text-red {
-  color: rgb(204, 10, 10);
-}
-
 .text-gray {
   color: rgb(241, 239, 239);
 }
@@ -75,7 +71,7 @@ a:hover {
 
 .box {
   border-top: 4px solid black;
-  border-right: 2px solid black;
+  border-right: 2px solid rgb(5, 5, 5);
   border-bottom: 4px solid black;
   border-left: 2px solid black;
 }
@@ -175,24 +171,18 @@ img {
 
 img:hover {
   filter: none;
+
 }
 
 i {
   margin: 5px;
   transition: all 800ms ease;
-
+  font-size: 3rem;
 
 }
 
-i:hover {
-  color: rgb(204, 10, 10);
-}
 
 .black-box {
   background-color: black;
-}
-
-.contact {
-  margin: auto;
-  width: 65%;
+  padding: 5px;
 }
