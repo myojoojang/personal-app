@@ -62,6 +62,8 @@ export class Works extends Component {
               <div>Axios</div>
 
               <div>NASA OPEN API</div>
+              <div>Chart.js</div>
+
             </div>
 
           </div>
