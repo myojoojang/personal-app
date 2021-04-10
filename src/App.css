@@ -8,6 +8,10 @@ body {
   cursor: crosshair
 }
 
+* {
+  scroll-behavior: smooth;
+}
+
 body::-webkit-scrollbar {
   display: none;
 }
@@ -34,19 +38,19 @@ a:hover {
 }
 
 .title {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 700;
 
 }
 
 .semi-title {
-  font-size: 2.5rem;
+  font-size: 3.5rem;
   font-weight: 700;
 }
 
 .bold {
   font-weight: 700;
-  font-size: 1.7rem;
+  font-size: 3rem;
   transition: all 800ms ease;
 }
 
@@ -158,10 +162,9 @@ a:hover {
 .col-xl-8,
 .col-xl-9,
 .col-xl-auto {
-  padding: 0px;
+
+  padding-right: 0px;
 }
-
-
 
 img {
   filter: grayscale(100%) contrast(200%);
@@ -177,7 +180,7 @@ img:hover {
 i {
   margin: 5px;
   transition: all 800ms ease;
-  font-size: 3rem;
+  font-size: 4rem;
 
 }
 

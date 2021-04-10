@@ -4,8 +4,11 @@ export class Works extends Component {
   render() {
     return (
       <div>
-        <div className="bold border-bt"><span className="mx-2"> <i class="fas fa-angle-double-right bold"></i>Works</span></div>
+        <section id="scroll-to">
 
+
+        <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
+        </section>
         <div className="row my-4">
           <div className="col-lg-6 box">
           
@@ -15,11 +18,11 @@ export class Works extends Component {
           </div>
 
           <div className="col-lg-6 box">
-            <div className="border-bt p-2">
+            <div className="border-bt">
               <div className="bold black-box text-gray m-1">The Metropolitan Museum Explorer</div>
                 <div className="bold d-flex">
-                  <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-maximize"></i></a>
-                  <a href="https://github.com/myojoojang/mtpl-museum" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                  <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-window-maximize"></i></a>
+                  <a href="https://github.com/myojoojang/mtpl-museum" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
                 </div>
               </div>
 
@@ -45,11 +48,11 @@ export class Works extends Component {
           </div>
 
           <div className="col-lg-6 box">
-            <div className="border-bt p-2">
+            <div className="border-bt">
               <div className="bold black-box text-gray m-1">NASA API EXPERIMENT</div>
                 <div className="bold d-flex">
-                  <a href="https://nasaapiexp.netlify.app/#/" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-maximize"></i></a>
-                  <a href="https://github.com/myojoojang/nasaapi" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                  <a href="https://nasaapiexp.netlify.app/#/" target="_blank" rel="noopener noreferrer"><i className="fas fa-window-maximize"></i></a>
+                  <a href="https://github.com/myojoojang/nasaapi" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
                 </div>
               </div>
 
@@ -75,11 +78,11 @@ export class Works extends Component {
           </div>
 
           <div className="col-lg-6 box">
-            <div className="border-bt p-2">
+            <div className="border-bt">
               <div className="bold black-box text-gray m-1">Moviest</div>
                 <div className="bold d-flex">
-                  <a href="https://moviest.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i class="fas fa-window-maximize"></i></a>
-                  <a href="https://github.com/myojoojang/moviest" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                  <a href="https://moviest.herokuapp.com/" target="_blank" rel="noopener noreferrer"><i className="fas fa-window-maximize"></i></a>
+                  <a href="https://github.com/myojoojang/moviest" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
                 </div>
               </div>
 
@@ -104,14 +107,14 @@ export class Works extends Component {
           </div>
 
           <div className="col-lg-6 box">
-          <div className="border-bt p-2">
+          <div className="border-bt">
             <div className="bold black-box text-gray m-1">Klper</div>
             <div className="bold d-flex">
            
-                <a href="https://youtu.be/0J33xvSl2A0" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube-square"></i></a>
+                <a href="https://youtu.be/0J33xvSl2A0" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube-square"></i></a>
                
-                <a href="https://drive.google.com/file/d/1RG5qCNRFTX447WYGa1W-1VfgLXA8OM7N/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-powerpoint"></i></a>
-                <a href="https://github.com/myojoojang/KLPR_FINAL_BUILD" target="_blank" rel="noopener noreferrer"><i class="fab fa-github-square"></i></a>
+                <a href="https://drive.google.com/file/d/1RG5qCNRFTX447WYGa1W-1VfgLXA8OM7N/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-powerpoint"></i></a>
+                <a href="https://github.com/myojoojang/KLPR_FINAL_BUILD" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
             </div>
           </div>
             <div className="m-2">

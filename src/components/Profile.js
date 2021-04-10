@@ -8,7 +8,7 @@ export class Profile extends Component {
       <div className="container-fluid">
         <div className="row">
 
-          <div className="col-lg-4 box">
+          <div className="col-lg-6 box">
             <div className="border-bt semi-title">
               <div className="p-4">
                 <div>Hi, I'm MJ.</div>
@@ -17,7 +17,7 @@ export class Profile extends Component {
             </div>
 
             <div >
-            <div className="bold border-bt"><span className="mx-4"><i class="fas fa-angle-double-right bold"></i>ABOUT</span></div>
+            <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-double-right bold"></i>ABOUT</span></div>
             <div className="p-4 capitalize">
               <div>Creative Front-End Developer experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Passionate about aesthetics and UI design.</div>
             </div>
@@ -25,19 +25,18 @@ export class Profile extends Component {
            
           </div>
 
-
-          {/*  */}
+{/* 
           <div className="col-lg-4 box p-auto">
             
-            {/* <img src="./img/main.jpg" className="img-fluid p-1" /> */}
+            <img src="./img/main.jpg" className="img-fluid p-1" />
             
-          </div>
+          </div> */}
 
-          {/*  */}
+          
 
-          <div className="col-lg-4 box p-0 mt-2 my-lg-0">
+          <div className="col-lg-6 box p-0 mt-2 my-lg-0">
           <div className="p-4">
-            <div className="text-right p-2 bold black-box text-gray "><i class="fas fa-angle-double-right bold"></i>SKILLS</div>
+            <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right bold"></i>SKILLS</div>
 
 
 
@@ -95,8 +94,9 @@ export class Profile extends Component {
       
         <div className="border-bt">
           <div className="text-center my-2">
-
+          <a href="#scroll-to">
           <i className="fas fa-angle-double-down bold"></i>
+          </a>
           </div>
         </div>
       
