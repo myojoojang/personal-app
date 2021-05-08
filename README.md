@@ -1,1 +1,2 @@
-https://mj-jang.netlify.app/
+- [DEMO](https://mj-jang.netlify.app/)
+- Personal Portfolio
