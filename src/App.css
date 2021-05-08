@@ -4,7 +4,7 @@ body {
   color: black;
   background-color: rgb(241, 239, 239);
   overflow-x: hidden;
-  transition: all 2000ms ease;
+ 
   cursor: crosshair;
   font-size: 1.15rem;
 }
