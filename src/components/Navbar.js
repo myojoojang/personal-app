@@ -10,7 +10,7 @@ export class Navbar extends Component {
 
           <div className='semi-title d-flex text-right d-md-block col-md-6 my-auto'>
             <span>
-              <a href="https://drive.google.com/file/d/1xdp2u75QKQq9Hm2RieXL5VVVKWbG407G/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-address-card"></i></a>
+              <a href="https://drive.google.com/file/d/1R0gHXZCK1b5CWeruedfQMQIMNE1TovTJ/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-address-card"></i></a>
             </span>
 
             <span>
