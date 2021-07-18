@@ -17,92 +17,74 @@ export class Profile extends Component {
             </div>
 
             <div >
-            <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-double-right bold"></i>ABOUT</span></div>
-            <div className="p-4 capitalize">
-              <div>Creative Front-End Developer experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Passionate about aesthetics and UI design.</div>
+              <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-double-right bold"></i>ABOUT</span></div>
+              <div className="p-4 capitalize">
+                <div>Creative Front-End Developer experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Passionate about aesthetics and UI design.</div>
+              </div>
             </div>
-            </div>
-           
           </div>
 
-{/* 
-          <div className="col-lg-4 box p-auto">
-            
-            <img src="./img/main.jpg" className="img-fluid p-1" />
-            
-          </div> */}
 
-          
 
           <div className="col-lg-6 box p-0 mt-2 my-lg-0">
-          <div className="p-4">
-            <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right bold"></i>SKILLS</div>
+            <div className="p-4">
+              <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right bold"></i>SKILL-SET</div>
 
 
 
-            <div className="semi-title d-flex justify-content-around my-3">
+              <div className="semi-title d-flex justify-content-around my-3">
 
-              <i className="fab fa-html5"></i>
-              <i className="fab fa-css3-alt"></i>
-              <i className="fab fa-js"></i>
-              <i className="fab fa-react"></i>
-              <i className="fab fa-vuejs"></i>
-              <i className="fab fa-node"></i>
-              <i className="fas fa-pencil-ruler"></i>
-           
+                <i className="fab fa-html5"></i>
+                <i className="fab fa-css3-alt"></i>
+                <i className="fab fa-js"></i>
+                <i className="fab fa-react"></i>
+                <i className="fab fa-vuejs"></i>
+                <i className="fab fa-node"></i>
+                <i className="fas fa-pencil-ruler"></i>
 
-            </div>
+
+              </div>
               <div>
-               
-                   HTML, CSS/SASS
+                HTML, CSS/SASS
               </div>
 
-                   
+
               <div>
-               
                 JavaScript/ES6, Front End frameworks (React, Vue), Webpack, Babel
               </div>
-                  
-              <div>
-             
-
-              Data visualization skills w/ Kibana, Chart.js and D3.js
-              </div>
 
               <div>
-             
+                Data visualization skills w/ Kibana and Chart.js
+                <div>
+                  Node.js, MySql, Elastic Search
+                </div>
 
-                Node.js, MySql, MongoDB, Elastic Search
+                <div>
+                  Responsive UI Design, Google material Design,Vuetify, Bootstrap
+                </div>
+
+                <div>
+                  Adobe Photoshop, Illustlator, Indesign, XD
+                </div>
+
               </div>
 
-              <div>
-               
-                  Google material Design, Responsive UI Design, Vuetify, Bootstrap
-              </div>
-
-              <div>
-             
-                Adobe Photoshop, Illustlator, Indesign, XD
-              </div>
-              
             </div>
 
+
+          </div>
+
+          <div className="border-bt">
+            <div className="text-center my-2">
+              <a href="#scroll-to">
+                <i className="fas fa-angle-double-down bold"></i>
+              </a>
+            </div>
           </div>
 
 
         </div>
-      
-        <div className="border-bt">
-          <div className="text-center my-2">
-          <a href="#scroll-to">
-          <i className="fas fa-angle-double-down bold"></i>
-          </a>
-          </div>
-        </div>
-      
-        
       </div>
-
     )
   }
 }
