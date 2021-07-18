@@ -70,21 +70,22 @@ export class Profile extends Component {
               </div>
 
             </div>
-
-
-          </div>
-
-          <div className="border-bt">
-            <div className="text-center my-2">
-              <a href="#scroll-to">
-                <i className="fas fa-angle-double-down bold"></i>
-              </a>
+            <div className="border-bt">
+              <div className="text-center my-2">
+                <a href="#scroll-to">
+                  <i className="fas fa-angle-double-down bold"></i>
+                </a>
+              </div>
             </div>
+
           </div>
 
 
         </div>
+
+
       </div>
+
     )
   }
 }
