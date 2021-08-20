@@ -9,6 +9,7 @@ export class Works extends Component {
 
           <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
         </section>
+      {/*
         <div className="row my-4">
           <div className="col-lg-6 box">
 
@@ -38,7 +39,7 @@ export class Works extends Component {
           </div>
 
         </div>
-        {/*  */}
+          */}
         <div className="row my-4">
           <div className="col-lg-6 box">
 
