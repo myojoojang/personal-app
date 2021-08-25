@@ -1,7 +1,5 @@
 import React, { Component } from 'react'
 
-
-
 export class Profile extends Component {
   render() {
     return (
@@ -16,22 +14,17 @@ export class Profile extends Component {
               </div>
             </div>
 
-            <div >
+            <div>
               <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-double-right bold"></i>ABOUT</span></div>
               <div className="p-4 capitalize">
-                <div>Creative Front-End Developer experience in blending the art of design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization, and relentless debugging. Passionate about aesthetics and UI design.</div>
+                <div>Creative Front-End Developer experience in UI/UX design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization. Passionate about aesthetics and UI design.</div>
               </div>
             </div>
           </div>
 
-
-
           <div className="col-lg-6 box p-0 mt-2 my-lg-0">
             <div className="p-4">
               <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right bold"></i>SKILL-SET</div>
-
-
-
               <div className="semi-title d-flex justify-content-around my-3">
 
                 <i className="fab fa-html5"></i>
@@ -42,13 +35,10 @@ export class Profile extends Component {
                 <i className="fab fa-node"></i>
                 <i className="fas fa-pencil-ruler"></i>
 
-
               </div>
               <div>
                 HTML, CSS/SASS
               </div>
-
-
               <div>
                 JavaScript/ES6, Front End frameworks (React, Vue), Webpack, Babel
               </div>
@@ -58,15 +48,12 @@ export class Profile extends Component {
                 <div>
                   Node.js, MySql, Elastic Search
                 </div>
-
                 <div>
                   Responsive UI Design, Google material Design,Vuetify, Bootstrap
                 </div>
-
                 <div>
                   Adobe Photoshop, Illustlator, Indesign, XD
                 </div>
-
               </div>
 
             </div>
@@ -77,15 +64,9 @@ export class Profile extends Component {
                 </a>
               </div>
             </div>
-
           </div>
-
-
         </div>
-
-
       </div>
-
     )
   }
 }
