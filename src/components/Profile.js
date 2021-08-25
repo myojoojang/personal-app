@@ -15,7 +15,7 @@ export class Profile extends Component {
             </div>
 
             <div>
-              <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-double-right bold"></i>ABOUT</span></div>
+              <div className="bold border-bt"><span className="mx-4"><i className="fas fa-angle-right bold"></i>ABOUT</span></div>
               <div className="p-4 capitalize">
                 <div>Creative Front-End Developer experience in UI/UX design with skill of programming to deliver an immersive and engaging user experience through efficient website development, proactive feature optimization. Passionate about aesthetics and UI design.</div>
               </div>
@@ -23,8 +23,8 @@ export class Profile extends Component {
           </div>
 
           <div className="col-lg-6 box p-0 mt-2 my-lg-0">
-            <div className="p-4">
-              <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-double-right bold"></i>SKILL-SET</div>
+            <div className="p-4 border-bt">
+              <div className="text-right p-2 bold black-box text-gray "><i className="fas fa-angle-right bold"></i>SKILL-SET</div>
               <div className="semi-title d-flex justify-content-around my-3">
 
                 <i className="fab fa-html5"></i>
@@ -58,12 +58,13 @@ export class Profile extends Component {
 
             </div>
             <div>
-              <div className="text-center my-2">
+              <div className="text-center my-6">
                 <a href="#scroll-to">
                   <i className="fas fa-angle-double-down bold"></i>
                 </a>
               </div>
             </div>
+            
           </div>
         </div>
       </div>

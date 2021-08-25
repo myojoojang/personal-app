@@ -5,9 +5,14 @@ body {
   background-color: rgb(241, 239, 239);
   overflow-x: hidden;
   font-size: 1.15rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  
 }
 
+
 * {
+  
   scroll-behavior: smooth;
   -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -48,11 +53,8 @@ body::-webkit-scrollbar {
   from { opacity: 0; }
   to   { opacity: 1; }
 }
-Demo
-body {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
+
+
 
 .capitalize {
   text-transform: capitalize;

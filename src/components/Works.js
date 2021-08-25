@@ -5,7 +5,7 @@ export class Works extends Component {
     return (
       <div>
         <section id="scroll-to">
-          <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
+          <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-right bold"></i>Works</span></div>
         </section>
       
         <div className="row my-4">
