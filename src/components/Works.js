@@ -7,10 +7,9 @@ export class Works extends Component {
         <section id="scroll-to">
           <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
         </section>
-      {/*
+      
         <div className="row my-4">
           <div className="col-lg-6 box">
-
             <a href="https://cointrackerbymj.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="./img/coin.png" className="img-fluid p-1" alt="p-1" />
             </a>
@@ -25,19 +24,16 @@ export class Works extends Component {
               </div>
             </div>
 
-            <div className="p-2 ">
+            <div className="p-2">
               <div>VUE</div>
               <div>Ag-grid</div>
               <div>Chart.js</div>
               <div>Axios</div>
               <div>The CoinGecko data market API</div>
-
             </div>
-
           </div>
-
         </div>
-          */}
+      
         <div className="row my-4">
           <div className="col-lg-6 box">
             <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer">

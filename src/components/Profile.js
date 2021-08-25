@@ -57,7 +57,7 @@ export class Profile extends Component {
               </div>
 
             </div>
-            <div className="border-bt">
+            <div>
               <div className="text-center my-2">
                 <a href="#scroll-to">
                   <i className="fas fa-angle-double-down bold"></i>
