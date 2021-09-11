@@ -9,6 +9,39 @@ export class Works extends Component {
 
           <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
         </section>
+
+        {/*  */}
+        <div className="row my-4">
+          <div className="col-lg-6 box">
+
+            <a href="https://neoness.netlify.app/" target="_blank" rel="noopener noreferrer">
+              <img src="./img/neoness.png" className="img-fluid p-1" alt="p-1" />
+            </a>
+          </div>
+
+          <div className="col-lg-6 box">
+            <div className="border-bt">
+              <div className="bold black-box text-gray m-1">The NEONESS SHOP</div>
+              <div className="bold d-flex">
+                <a href="https://neoness.netlify.app/" target="_blank" rel="noopener noreferrer"><i className="fas fa-window-maximize"></i></a>
+                <a href="https://github.com/myojoojang/ecommerce_shop" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
+              </div>
+            </div>
+
+            <div className="p-2 ">
+              <div>React</div>
+              <div>React Hook</div>
+              <div>Commerce.js, Stripe.js</div>
+              <div>Mterial-ui, Styled-components.js</div>
+
+              <strong>/Working on Customization features and Item Details./</strong>
+
+            </div>
+
+          </div>
+
+        </div>
+        {/*  */}
         <div className="row my-4">
           <div className="col-lg-6 box">
 
