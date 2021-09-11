@@ -9,6 +9,7 @@ import './App.css';
 
 function App() {
   return (
+<<<<<<< HEAD
     <React.Fragment>
 
       <div className="main">
@@ -20,6 +21,15 @@ function App() {
 
 
 
+=======
+    <React.Fragment>     
+        <div className="main">
+          <Navbar />
+          <Profile/>
+          <Works />
+         
+        </div>
+>>>>>>> 2df17e55a5db9aa090d47b3939543f67d914ac01
     </React.Fragment>
   );
 }

@@ -5,9 +5,7 @@ export class Works extends Component {
     return (
       <div>
         <section id="scroll-to">
-
-
-          <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-double-right bold"></i>Works</span></div>
+          <div className="bold border-bt"><span className="mx-2"> <i className="fas fa-angle-right bold"></i>Works</span></div>
         </section>
 
         {/*  */}
@@ -44,7 +42,6 @@ export class Works extends Component {
         {/*  */}
         <div className="row my-4">
           <div className="col-lg-6 box">
-
             <a href="https://cointrackerbymj.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="./img/coin.png" className="img-fluid p-1" alt="p-1" />
             </a>
@@ -59,22 +56,18 @@ export class Works extends Component {
               </div>
             </div>
 
-            <div className="p-2 ">
+            <div className="p-2">
               <div>VUE</div>
               <div>Ag-grid</div>
               <div>Chart.js</div>
               <div>Axios</div>
               <div>The CoinGecko data market API</div>
-
             </div>
-
           </div>
-
         </div>
-        {/*  */}
+
         <div className="row my-4">
           <div className="col-lg-6 box">
-
             <a href="https://metropolitan-exp.netlify.app/" target="_blank" rel="noopener noreferrer">
               <img src="./img/mtplt.png" className="img-fluid p-1" alt="p-1" />
             </a>
@@ -93,23 +86,18 @@ export class Works extends Component {
               <div>VUE</div>
               <div>Vuetify</div>
               <div>Axios</div>
-
               <div>The Metropolitan Museum of Art Collection API</div>
-
             </div>
-
           </div>
-
         </div>
+
         {/*  */}
         <div className="row my-4">
           <div className="col-lg-6 box">
-
             <a href="https://nasaapiexp.netlify.app/#/" target="_blank" rel="noopener noreferrer">
               <img src="./img/nasaapi.png" className="img-fluid p-1" alt="p-2" />
             </a>
           </div>
-
           <div className="col-lg-6 box">
             <div className="border-bt">
               <div className="bold black-box text-gray m-1">NASA API EXPERIMENT</div>
@@ -123,20 +111,15 @@ export class Works extends Component {
               <div>VUE</div>
               <div>Vuetify</div>
               <div>Axios</div>
-
               <div>NASA OPEN API</div>
               <div>Chart.js</div>
-
             </div>
-
           </div>
-
         </div>
         {/*  */}
 
         <div className="row  my-4">
           <div className="col-lg-6 box">
-
             <a href="https://moviest.herokuapp.com/" target="_blank" rel="noopener noreferrer">
               <img src="./img/moviest.jpg" className="img-fluid p-1" alt="p-2" />
             </a>
@@ -157,9 +140,7 @@ export class Works extends Component {
               <div>OMDB Movie API</div>
               <div>Bootstrap, CSS, EJS</div>
             </div>
-
           </div>
-
         </div>
 
         {/*  */}
@@ -170,14 +151,12 @@ export class Works extends Component {
             <img src="./img/klper.jpg" className="img-fluid p-1" alt="p-1" />
             {/* </a> */}
           </div>
-
           <div className="col-lg-6 box">
             <div className="border-bt">
               <div className="bold black-box text-gray m-1">Klper</div>
               <div className="bold d-flex">
 
                 <a href="https://youtu.be/0J33xvSl2A0" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube-square"></i></a>
-
                 <a href="https://drive.google.com/file/d/1RG5qCNRFTX447WYGa1W-1VfgLXA8OM7N/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-powerpoint"></i></a>
                 <a href="https://github.com/myojoojang/KLPR_FINAL_BUILD" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
               </div>
@@ -188,10 +167,8 @@ export class Works extends Component {
               <div>SPRING, SPRING Security, JAVA, JSP</div>
               <div>MyBatis, MySQL, AWS</div>
             </div>
-
           </div>
         </div>
-
         {/*  */}
 
       </div >
