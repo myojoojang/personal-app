@@ -52,7 +52,7 @@ export class Profile extends Component {
                   Responsive UI Design, Google material Design,Vuetify, Bootstrap
                 </div>
                 <div>
-                  Adobe Photoshop, Illustlator, Indesign, XD
+                  Adobe Photoshop, Illustrator, Indesign, XD
                 </div>
               </div>
 
