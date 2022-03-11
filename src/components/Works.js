@@ -83,9 +83,6 @@ export class Works extends Component {
               <div>React Hook</div>
               <div>Commerce.js, Stripe.js</div>
               <div>Mterial-ui, Styled-components.js</div>
-
-              <strong>/Working on Customization features and Item Details./</strong>
-
             </div>
 
           </div>
@@ -146,30 +143,30 @@ export class Works extends Component {
 
         {/*  */}
 
-        <div className="row my-4">
-          <div className="col-lg-6 box">
-            {/* <a href="https://klper.com/" target="_blank" rel="noopener noreferrer"> */}
-            <img src="./img/klper.jpg" className="img-fluid p-1" alt="p-1" />
-            {/* </a> */}
-          </div>
-          <div className="col-lg-6 box">
-            <div className="border-bt">
-              <div className="bold black-box text-gray m-1">Klper</div>
-              <div className="bold d-flex">
+//         <div className="row my-4">
+//           <div className="col-lg-6 box">
+//             {/* <a href="https://klper.com/" target="_blank" rel="noopener noreferrer"> */}
+//             <img src="./img/klper.jpg" className="img-fluid p-1" alt="p-1" />
+//             {/* </a> */}
+//           </div>
+//           <div className="col-lg-6 box">
+//             <div className="border-bt">
+//               <div className="bold black-box text-gray m-1">Klper</div>
+//               <div className="bold d-flex">
 
-                <a href="https://youtu.be/0J33xvSl2A0" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube-square"></i></a>
-                <a href="https://drive.google.com/file/d/1RG5qCNRFTX447WYGa1W-1VfgLXA8OM7N/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-powerpoint"></i></a>
-                <a href="https://github.com/myojoojang/KLPR_FINAL_BUILD" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
-              </div>
-            </div>
-            <div className="m-2">
-              <div>HTML, CSS, Boots trap, JavaScript jQuery, D3.js</div>
-              <div>Kakao Pay API</div>
-              <div>SPRING, SPRING Security, JAVA, JSP</div>
-              <div>MyBatis, MySQL, AWS</div>
-            </div>
-          </div>
-        </div>
+//                 <a href="https://youtu.be/0J33xvSl2A0" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube-square"></i></a>
+//                 <a href="https://drive.google.com/file/d/1RG5qCNRFTX447WYGa1W-1VfgLXA8OM7N/view?usp=sharing" target="_blank" rel="noopener noreferrer"><i className="fas fa-file-powerpoint"></i></a>
+//                 <a href="https://github.com/myojoojang/KLPR_FINAL_BUILD" target="_blank" rel="noopener noreferrer"><i className="fab fa-github-square"></i></a>
+//               </div>
+//             </div>
+//             <div className="m-2">
+//               <div>HTML, CSS, Boots trap, JavaScript jQuery, D3.js</div>
+//               <div>Kakao Pay API</div>
+//               <div>SPRING, SPRING Security, JAVA, JSP</div>
+//               <div>MyBatis, MySQL, AWS</div>
+//             </div>
+//           </div>
+//         </div>
         {/*  */}
 
       </div >
