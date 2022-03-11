@@ -140,9 +140,6 @@ export class Works extends Component {
             </div>
           </div>
         </div>
-
-        {/*  */}
-
 //         <div className="row my-4">
 //           <div className="col-lg-6 box">
 //             {/* <a href="https://klper.com/" target="_blank" rel="noopener noreferrer"> */}
@@ -166,9 +163,7 @@ export class Works extends Component {
 //               <div>MyBatis, MySQL, AWS</div>
 //             </div>
 //           </div>
-//         </div>
-        {/*  */}
-
+        </div>
       </div >
 
     )
