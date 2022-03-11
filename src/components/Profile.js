@@ -40,7 +40,7 @@ export class Profile extends Component {
                 HTML, CSS/SASS
               </div>
               <div>
-                JavaScript/ES6, Front End frameworks (React, Vue), Webpack, Babel
+                JavaScript/ES6, React, Vue, Webpack, Babel
               </div>
 
               <div>
@@ -49,10 +49,10 @@ export class Profile extends Component {
                   Node.js, MySql, Elastic Search
                 </div>
                 <div>
-                  Responsive UI Design, Google material Design,Vuetify, Bootstrap
+                  Responsive UI Design, Google material Design, Vuetify, Bootstrap
                 </div>
                 <div>
-                  Adobe Photoshop, Illustrator, Indesign, XD
+                  Adobe Photoshop, Illustrator, Indesign, XD, Figama
                 </div>
               </div>
 
