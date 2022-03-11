@@ -139,7 +139,7 @@ export class Works extends Component {
               <div>Bootstrap, CSS, EJS</div>
             </div>
           </div>
-        </div>
+        
         </div>
       </div>
 
