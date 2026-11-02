@@ -27,7 +27,7 @@ function Project({ title, image, liveUrl, repoUrl, stack }) {
           </div>
         </div>
 
-        <div className="p-2">
+        <div className="p-3 stack">
           {stack.map((item) => (
             <div key={item}>{item}</div>
           ))}

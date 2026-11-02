@@ -34,12 +34,14 @@ export default function Profile() {
                 <i key={icon} className={icon}></i>
               ))}
             </div>
-            {skillLines.map((line) => (
-              <div key={line}>{line}</div>
-            ))}
+            <div className="stack">
+              {skillLines.map((line) => (
+                <div key={line}>{line}</div>
+              ))}
+            </div>
           </div>
 
-          <div className="text-center my-6">
+          <div className="text-center scroll-cue">
             <a href="#scroll-to" aria-label="Scroll to works">
               <i className="fas fa-angle-double-down bold"></i>
             </a>
