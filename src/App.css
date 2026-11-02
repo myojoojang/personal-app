@@ -133,8 +133,8 @@ a:focus-visible {
 
 /* Icons */
 i {
-  margin: 0 0.3rem;
-  font-size: inherit;
+  margin: 5px;
+  font-size: 4rem;
   transition: color 200ms ease, transform 200ms ease;
 }
 
